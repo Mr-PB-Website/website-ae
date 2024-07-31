@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
-</head>
-<body>
-
-<h1>My Website</h1>
-<p>A website created by me.</p>
-
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A personal website for Mr. PB showcasing his latest picture."
+    />
+    <meta name="keywords" content="Mr. PB, personal website, latest picture" />
+    <meta name="author" content="Mr. PB" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <!-- Add CSS to center image -->
+    <style>
+      h1,
+      h2 {
+        text-align: center; /* Center both headings */
+        margin-top: 20px; /* Add space above each heading */
+        margin-bottom: 2rem; /* Add space below each heading */
+        font-family: "Times New Roman", Times, serif; /* Use a nice serif font */
+      }
+    </style>
+    <h1>
+      Wilkommen<br />
+      beim Internetauftritt von Mr. Pullerbär!
+    </h1>
+    <h2>Hier ein aktuelles Bild:</h2>
+    <style>
+      img {
+        display: block;
+        margin: 20px auto; /* Center the image with some margin */
+        max-width: 50%; /* Adjust the size as needed */
+        height: auto; /* Maintain aspect ratio */
+        border: 10px solid #8b4513; /* Simulate a wooden frame color */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+      }
+    </style>
+    <img src="images/pb.jpeg" alt="Mr. PB" />
+  </body>
 </html>
